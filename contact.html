@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Café Kawaii!</title>
+    <link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Shrikhand' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+    <link rel="icon" type="image/gif" href="images/div48.gif">
+
+
+    <style>
+
+        body {
+            background: url(images/bg.jpg);
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #f2a5b5;
+            font-size: 1.4em;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 1.3em;
+            line-height: 10px;
+        }
+
+        h2 {
+            font-family: Shrikhand;
+            font-size: 2.3em;
+            color: #f2a5b5;
+            text-shadow: 4px 3px 0px #fadadf; 
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        h3 {
+            font-family: Pangolin;
+            font-size: medium;
+            color: black;
+            text-align: left;
+            line-height: normal;
+        }
+
+        h4 {
+            font-family: Karla;
+            font-size: small;
+            line-height: normal;
+            text-align: left;
+            margin-top: -15px;
+            margin-right: 10px;
+        }
+
+        .price {font-family: Karla; font-size: small; display: inline;}
+
+         .div1 {
+            border: 2px solid black;
+            background-color: rgb(255, 229, 197);
+            padding: 10px;
+            width: 700px;
+            margin: auto;
+            margin-top: auto; 
+            line-height: 0px;
+         }
+
+         .div2 {
+            border: 2px solid black;
+            background-color: #fadadf;
+            padding-left: 20px;
+            height: 40px;
+    
+         }
+
+         .div3 {
+            border: 2px solid black;
+            background-color: white;
+            margin-top: 5px;
+            padding-top: 20px;
+            padding-left: 10px;
+            height: fit-content;
+            text-align: center;
+         }
+
+         input {
+            line-height: normal;
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid rgb(249, 178, 190);
+            background-color:#fedbe2;
+            outline: none;
+            color: rgb(250, 128, 149);
+            margin-bottom: 20px;
+         }
+
+         input[type=submit] {
+            background-color: rgb(249, 178, 190);
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+
+        }
+
+        textarea {
+            line-height: normal;
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            height: 100px;
+            border: none;
+            border-bottom: 2px solid rgb(249, 178, 190);
+            background-color:#fedbe2;
+            outline: none;
+            color: rgb(250, 128, 149);
+            overflow: scroll;
+            text-align: left;
+            padding:  0.6em;
+        }
+
+        label {
+            font-family: Pangolin;
+            line-height: normal;
+        }
+
+         .button {
+            
+            background-color: #fadadf;
+            color: white;
+            border-radius: 50px;
+            
+            border: none;
+            font-family: Shrikhand;  
+            padding: 10px;
+            text-decoration: none;
+            font-size: 1em;
+            border: 2px solid black;
+            transition: 0.3s;
+            width: 200px;
+            margin-top: 10px;                        
+        }
+
+        .button:hover {transform: scale(1.2);}
+
+        .li {
+            margin-top: 20px;
+            margin-right: 10px;      
+            list-style: none; 
+        }
+
+        a:link{
+            text-decoration: none;
+        }
+
+        a:visited, a:link {
+            color: #f2a5b5;
+        }
+
+        .socials {
+            border: 1px solid #f2a5b5;
+            border-radius: 100px;
+
+            width: 70px;
+            height: auto;
+            margin-top: 100px;
+        }
+
+        .align {
+            text-align: center;
+        }
+
+        
+
+
+
+
+    </style>
+    </head>
+
+    <body>
+
+        <div class = "div1">
+
+            <div class = "div2">
+                <h1>♡ Menu</h1>
+            </div>
+
+            <div class = "div3">
+                
+                <h2>Contact Us!</h2>
+                <h4 style="text-align: center; margin-top: -30px; margin-bottom:40px ;">
+                    We are reachable through our social media and email through the form provided below
+                </h4>
+
+                <form>
+                    <label for="fname">First name</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for ="email">Email</label><br>
+                    <input type="email" id="fname" name="fname"><br>
+                    <label for="text">Subject</label><br>
+                    <input type="text" id = "subject" name = "subject"><br>
+                    <label for = "textarea">Message</label><br>
+                    <textarea rows="8" cols="40"></textarea><br>
+                    <input type = "submit" id = "submit" name = "submit">
+                    
+                </form>
+
+                <img src="images/instagram.png" alt="instagram" class="socials">
+                <img src="images/facebook.png" alt="facebook" class="socials">
+                <img src="images/tiktok.jpeg" alt = "tiktok" class="socials">
+                <p>@CafeKawaii</p>
+                
+                
+            </div>
+            
+            <div class = "align">
+            <button class="button"><a href="home.html">Home</a></button>
+                
+            </div>
+
+        </div>
+        
+        
+
+
+    </body>
+
+
+
